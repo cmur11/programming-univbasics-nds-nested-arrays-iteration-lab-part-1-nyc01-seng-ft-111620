@@ -9,7 +9,7 @@ while count < src.length do
   
     inner_count = 0
   while inner_count < src[count].length do 
-    if src[count][inner_count].even
+    if src[count][inner_count].even?
         p src[count][inner_count]      
     end
     p src[count][inner_count]
