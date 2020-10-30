@@ -8,7 +8,7 @@ while count < array_of_arrays.length do
   
     inner_count = 0
   while inner_count < array_of_arrays[count].length  && array_of_arrays[count] do 
-    p array_of_arrays[count]
+    p array_of_arrays[count][inner_count]
     inner_count +=1
   end
   count +=1
