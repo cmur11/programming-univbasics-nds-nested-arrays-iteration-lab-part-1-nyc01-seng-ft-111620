@@ -7,8 +7,8 @@ count = 0
 while count < array_of_arrays.length do
   
     inner_count = 0
-  while inner_count < array_of_arrays[count].length  
-    p array_of_arrays[count][inner_count]
+  while inner_count < array_of_arrays[count].length  && inner_count.is.even? do 
+    p array_of_arrays[count]
     inner_count +=1
   end
 count +=1
